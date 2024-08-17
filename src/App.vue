@@ -12,8 +12,9 @@
       <tbody>
       <tr>
         <td>{{ data.id }}</td>
-        <td>{{ data.title }}</td>
-        <td>{{ data.body }}</td>
+        <td>{{ data.name }}</td>
+        <td>{{ data.email }}</td>
+        <td>{{ data.age }}</td>
       </tr>
       </tbody>
     </table>
@@ -26,7 +27,7 @@ import axios from 'axios';
 import { ref, onMounted } from 'vue';
 
 // Define the API endpoint
-const apiUrl = 'https://jsonplaceholder.typicode.com/posts/1';
+const apiUrl = 'https://svc-app-nodejs-1723935184.web.onignite.dev/users';
 
 // Define reactive variables to hold the data and error
 const data = ref<any>(null);
