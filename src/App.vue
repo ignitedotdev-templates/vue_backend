@@ -5,12 +5,13 @@
       <thead>
       <tr>
         <th>ID</th>
-        <th>Title</th>
-        <th>Body</th>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Age</th>
       </tr>
       </thead>
       <tbody>
-      <tr>
+      <tr v-for="data in data">
         <td>{{ data.id }}</td>
         <td>{{ data.name }}</td>
         <td>{{ data.email }}</td>
