@@ -28,7 +28,7 @@ import axios from 'axios';
 import { ref, onMounted } from 'vue';
 
 // Define the API endpoint
-const apiUrl = 'https://svc-app-nodejs-1723936126.web.onignite.dev/users';
+const apiUrl = 'https://svc-app-nodejs-1724001248.web.onignite.dev/users';
 
 // Define reactive variables to hold the data and error
 const data = ref<any>(null);
