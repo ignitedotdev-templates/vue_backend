@@ -29,7 +29,7 @@ import { ref, onMounted } from 'vue';
 
 
 // Define the API endpoint
-const apiUrl = import.meta.env.VUE_APP_BACKEND_URL;
+const apiUrl = import.meta.env.VITE_APP_BACKEND_URL;
 
 // Define reactive variables to hold the data and error
 const data = ref<any>(null);
